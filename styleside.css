@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+
+}
+h1{
+    font-size: 50px;
+}
+.named{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+width: 70%;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(245, 50, 15));
+    padding: 10px 40px;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+

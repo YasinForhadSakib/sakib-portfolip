@@ -9,7 +9,7 @@ h1{
 .named{
     color: orangered;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 150px; 
 }
@@ -39,4 +39,30 @@ width: 70%;
     background-repeat: no-repeat;
     background-position:right bottom 50px;
 
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom 50px ;
+}
+.box{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(95, 86, 86);  
+}
+#baby-web-box2{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan );
+    border-image-slice: 1;
+}
+#full-stock-dev-box1{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(236, 9, 9),rgb(100, 3, 87));
+    border-image-slice: 3;
+}
+footer p{
+     text-align: center;
 }
